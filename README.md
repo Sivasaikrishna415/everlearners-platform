@@ -1,71 +1,30 @@
-# EverLearners Educational Platform
+# EverLearners Frontend
 
-🎓 **Interactive Educational Platform with Gamified Learning**
+🎓 **Interactive Educational Platform Frontend**
 
-A comprehensive educational platform featuring interactive games and immersive learning experiences. Built for GitHub Pages deployment with modern web technologies.
-
-## 🌐 Live Demo
-
-**GitHub Pages URL**: `https://your-username.github.io/your-repo-name/`
-**Vercel URL**: `https://your-project-name.vercel.app/`
-
-*(Replace with your actual deployment URLs after deployment)*
+This folder contains all the client-side files for the EverLearners educational platform, providing an immersive learning experience with gamified educational content.
 
 ---
 
-## 📁 Project Structure
+## 📁 File Structure
 
 ```
-├── index.html             # Main entry point (GitHub Pages default)
-├── game.html              # Application dashboard
-├── subjects.html          # Educational games hub
-├── test-signup.html       # Authentication testing
-├── styles.css             # Complete styling system
+frontend/
+├── game.html              # Main application entry point
+├── subjects.html          # Dedicated subjects and games page
+├── test-signup.html       # Authentication testing interface
+├── styles.css             # Complete application styling
 ├── logo.jpg               # EverLearners brand logo
-├── .github/
-│   └── workflows/
-│       └── deploy.yml     # GitHub Actions deployment
-├── .gitignore             # Git ignore rules
-└── README.md              # Project documentation
+└── README.md              # This documentation
 ```
 
-### �️ Setup Instructions
+---
 
-1. **Fork this repository**
-2. **Clone to your local machine**:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-   ```
-3. **Enable GitHub Pages**:
-   - Go to repository Settings → Pages
-   - Source: "GitHub Actions"
-   - The site will deploy automatically on push to main/master
+## 🗂️ Detailed File Descriptions
 
-### � Local Development
+### 📄 HTML Files
 
-1. **Open `index.html` in your browser** or use a local server:
-   ```bash
-   # Using Python
-   python -m http.server 8000
-   
-   # Using Node.js
-   npx http-server
-   ```
-
-2. **Access the application**:
-   - Main page: `http://localhost:8000/`
-   - Dashboard: `http://localhost:8000/game.html`
-   - Games hub: `http://localhost:8000/subjects.html`
-
-## 🗂️ Page Descriptions
-
-### 📄 **index.html** (Main Entry Point)
-- **Purpose**: GitHub Pages default landing page
-- **Content**: Educational games hub with rocket voyage game
-- **Features**: Interactive assembly, countdown, and launch phases
-
-### 📄 **game.html** (Application Dashboard)
+#### **game.html** (Main Application)
 - **Purpose**: Primary entry point and home page
 - **Components**:
   - EverLearners branding header with logo
@@ -148,66 +107,57 @@ A comprehensive educational platform featuring interactive games and immersive l
 #### Game Structure:
 1. **Educational Intro Screen**
    - Learning objectives presentation
-## 🎮 Featured Games
+   - Scientific background information
+   - Game mechanics explanation
+   - "Start Learning" call-to-action
 
-### 🚀 **Rocket Voyage Game**
-Experience an interactive space mission with three engaging phases:
+2. **Interactive Gameplay**
+   - **Molecule Collection**: Click-to-collect CO₂ and H₂O molecules
+   - **Real-time Scoring**: Points system for collected molecules
+   - **Visual Feedback**: Animated molecule interactions
+   - **Scientific Accuracy**: Realistic photosynthesis representation
+   - **Progress Tracking**: Real-time game state monitoring
 
-1. **Assembly Phase**: Click to assemble rocket components (Engine, Body, Fins, Nose Cone)
-2. **Countdown Phase**: Dynamic 10-second launch countdown with visual effects
-3. **Launch Phase**: Spectacular rocket launch animation with celebration effects
+3. **Educational Quiz System**
+   - **5 Comprehensive Questions**: Covering photosynthesis concepts
+   - **Multiple Choice Format**: Clear answer selection
+   - **Immediate Feedback**: Instant right/wrong responses
+   - **Educational Explanations**: Learning-focused answer feedback
+   - **Score Calculation**: Percentage-based performance tracking
 
-**Educational Value**: Learn about rocket science, aerospace engineering, and space exploration
+4. **Achievement & Badge System**
+   - **Gold Badge**: 80-100% quiz performance
+   - **Silver Badge**: 60-79% quiz performance
+   - **Bronze Badge**: Below 60% with encouragement to retry
+   - **Visual Rewards**: Animated badge presentations
+   - **Motivational Messaging**: Personalized achievement feedback
 
-### 🌱 **Photosynthesis Game**
-Interactive biology learning experience covering plant science:
+#### Game Mechanics:
+- **Canvas-based Rendering**: Smooth 2D graphics and animations
+- **Event-driven Interactions**: Mouse/click-based gameplay
+- **State Management**: Comprehensive game state tracking
+- **Audio Integration**: Sound effects for enhanced engagement
+- **Responsive Design**: Optimized for various screen sizes
 
-1. **Learning Module**: Scientific background and game mechanics
-2. **Molecule Collection**: Interactive CO₂ and H₂O collection gameplay
-3. **Knowledge Quiz**: 5 comprehensive questions with immediate feedback
-4. **Achievement System**: Badge rewards based on performance
+---
 
-**Educational Value**: Understanding photosynthesis, plant biology, and environmental science
+## 🧭 Navigation System
 
-## 🛠️ Technical Features
+### Primary Navigation
+- **Home Icon (🏠)**: Return to main application page
+- **Hamburger Menu (☰)**: Access to subjects page in new tab
+- **Cross-page Navigation**: Seamless movement between sections
+
+### Modal Navigation
+- **Science Topics Grid**: Visual selection of science subtopics
+- **Game Launch System**: Direct access to educational games
+- **Breadcrumb Navigation**: Clear user location awareness
+
+---
+
+## 💻 Technical Specifications
 
 ### Frontend Technologies
-- **HTML5**: Semantic markup with accessibility features
-- **CSS3**: Modern styling with animations and responsive design
-- **Vanilla JavaScript**: Interactive functionality without frameworks
-- **Canvas API**: 2D graphics rendering for games
-- **LocalStorage**: Client-side data persistence
-
-### GitHub Pages Optimizations
-- **Static Hosting**: No server-side dependencies
-- **Fast Loading**: Optimized assets and minimal dependencies
-- **SEO Friendly**: Proper meta tags and semantic HTML
-- **Mobile Responsive**: Works on all device sizes
-
-## 📱 Browser Compatibility
-- ✅ Chrome (Recommended)
-- ✅ Firefox
-- ✅ Safari
-- ✅ Edge
-- ✅ Mobile browsers
-
-## � Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit changes: `git commit -m 'Add feature'`
-4. Push to branch: `git push origin feature-name`
-5. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🌟 Acknowledgments
-
-- Educational content designed for engaging learning experiences
-- Game mechanics inspired by modern educational platforms
-- Responsive design principles for accessibility
 - **HTML5**: Semantic markup and modern web standards
 - **CSS3**: Advanced styling with animations and responsive design
 - **JavaScript ES6+**: Modern JavaScript with interactive functionality
