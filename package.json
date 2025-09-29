@@ -1,0 +1,12 @@
+{
+  "name": "everlearners-platform",
+  "version": "1.0.0",
+  "description": "Interactive Educational Platform with Gamified Learning",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'Static site - no server needed'"
+  },
+  "keywords": ["education", "games", "learning", "interactive"],
+  "author": "EverLearners",
+  "license": "MIT"
+}
